@@ -1,7 +1,7 @@
 #!/usr/bin/env texlua
 
 
-module = "honsub"
+module = "hobsub"
 
 sourcefiles={"*.sty"}
 typesetfiles={"hobsub.tex"}
