@@ -1,0 +1,33 @@
+\documentclass{article}
+\title{hobsub package}
+\author{Oberdiek Package Support Group}
+\date{\today}
+\usepackage{url}
+\raggedright
+\setlength\parskip{\baselineskip}
+\begin{document}
+
+
+\maketitle
+
+Heiko Oberdiek's \textsf{hobsub} package (and \textsf{hobsub-hyperref}
+and \textsf{hobsub-generic} packages) defined a mechanism for
+concatenating multiple files into a single file for faster loading.
+
+The disadvantage is that it introduces hard dependencies between the
+source files that are included and complicates distribution and
+updates.
+
+It was principally used with \textsf{hyperref} but is not currently
+used in any standard packages in texlive.
+
+The packages are still distributed as sinple stubs that reference the
+included packages via \verb|\RequirePackage|  rather than copying
+their source.
+
+The documented source of teh original packages is available at 
+\url{https://github.com/ho-tex/hobsub}
+but is not distributed to CTAN.
+
+
+\end{document}
